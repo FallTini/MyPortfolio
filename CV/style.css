@@ -1,0 +1,193 @@
+*{
+
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html{
+  height: 100%;
+}
+body{
+  
+  background: #E1D7D6;
+  font-size: 17px;
+  border: solid 10px #c7666d;
+}
+
+
+
+/*******/
+.nom{
+  width: 20%;
+  height: 10%;
+  border: solid 1px rgb(153, 153, 153);
+  margin: 0 auto;
+  color: #c7666d;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.titre{
+ 
+  margin: 0 auto;
+  color: #c7666d;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.photo{
+  margin: 0 auto;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 140px;
+  width: 140px;
+  background-color: #bbb;
+  border: solid 1px #B56D72;
+  border-radius: 50%;
+}
+.photo img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.divider{
+  border-left: 1px solid rgb(185, 184, 184);
+  height: 650px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  margin-top: 10px;
+  
+}
+.small-diviser{
+  border-left: 3px solid rgb(151, 151, 151);
+  height: 60px;
+  position: absolute;
+  left: 42%;
+  margin-left: -3px;
+  
+}
+
+
+
+.date{
+  color: rgb(172, 171, 171);
+ font-style: italic;
+}
+.gauche-certif{
+      
+  float:left;
+ 
+  width:80%;
+  }
+ 
+  .droit-certif{
+   
+  float:right;
+  width:20%;
+  }
+  .gauche{
+      
+  float:left;
+  width:48%;
+  height:100%;
+  text-align: end;
+  }
+  .gauche h2, h5, h4{
+      color: #c7666d;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .droite{
+   
+  float:right;
+  width:48%;
+  height:100%;
+  
+  
+  
+  }
+  .droite h2, h5, h4{
+    color: #c7666d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+
+
+  .container {
+    background-color: rgb(192, 192, 192);
+    width: 50%;
+    border-radius: 15px;
+    height: 10px;
+}
+
+.skill {
+    background-color: #c7666d;
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 6px;
+    height: 4px;
+    border-radius: 15px;
+}
+
+.office {
+    width: 80%;
+}
+.java {
+  width: 50%;
+}
+.francais {
+  width: 90%;
+}
+/*responsive sur la longueur*/
+@media screen and (min-height: 601px) {
+    
+}
+
+.spacing{
+  margin-top: 650px;
+}
+footer h2{
+  text-align: center;
+  color: #c7666d;
+
+}
+footer .diviseur{
+  border: 1px solid rgb(185, 184, 184);
+  width: 90%;
+ 
+  padding: top 1000px; 
+  margin: 0 auto;
+}
+.liste{
+  text-align: center;
+  margin-top: 10px;
+}
+.liste ul{
+  text-decoration: none ;
+}
+.liste li{
+  display: inline-block;
+  margin-left: 5px;
+ 
+}
+.liste + li img{
+  width: 12px;
+}
+.liste img{
+  width: 15px;
+}
